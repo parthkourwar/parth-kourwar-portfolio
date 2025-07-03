@@ -56,7 +56,40 @@
       color: #3498db;
       margin-bottom: 5px;
     }
-  </style>
+    .link-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.link-card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  width: 100px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  font-size: 0.85rem;
+}
+
+.link-card img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 8px;
+  object-fit: contain;
+}
+
+.link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+</style>
 </head>
 <body>
   <header>
@@ -103,38 +136,38 @@
     <li>
       <strong>Edunet Foundation</strong> | E-Learning / Edtech Intern<br>
       4-week internship focused on AI, Machine Learning, Deep Learning, and Generative AI.<br>
-      <a href="https://drive.google.com/file/d/1Fz3l4ey3pmOzV0-5COP2dDi6ZkXeo7Vk/view?usp=sharing" target="_blank" class="Button">View Certificate</a>
+      <a href="https://drive.google.com/file/d/1Fz3l4ey3pmOzV0-5COP2dDi6ZkXeo7Vk/view?usp=sharing" target="_blank" class="button">View Certificate</a>
     </li>
     <li>
       <strong>Edunet Foundation</strong> | AICTE Virtual Internship<br>
       Focused on AI, data analytics, and green skills with practical exposure to sustainable tech.<br>
-      <a href="https://drive.google.com/file/d/1v5cMXWOKlzlQz66WKpYgifCR9w0_hYnQ/view?usp=sharing" target="_blank" class="Button>View Certificate</a>
+      <a href="https://drive.google.com/file/d/1v5cMXWOKlzlQz66WKpYgifCR9w0_hYnQ/view?usp=sharing" target="_blank" class="button">View Certificate</a>
     </li>
   </ul>
 </section>
 
-
-  <section>
+<section>
   <h2>Links</h2>
-  <div class="links">
-    <a href="https://github.com/parthkourwar" target="_blank" class="link-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+  <div class="link-container">
+    <a class="link-card" href="https://github.com/parthkourwar" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
       <span>GitHub</span>
     </a>
-    <a href="https://www.linkedin.com/in/parth-kourwar-psk23122003" target="_blank" class="link-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+    <a class="link-card" href="https://www.linkedin.com/in/parth-kourwar-psk23122003" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
       <span>LinkedIn</span>
     </a>
-    <a href="https://leetcode.com/u/parthkourwar/" target="_blank" class="link-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" />
+    <a class="link-card" href="https://leetcode.com/u/parthkourwar/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
       <span>LeetCode</span>
     </a>
-    <a href="mailto:parthkourwar.sae.comp@gmail.com" class="link-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" />
-      <span>Email Me</span>
+    <a class="link-card" href="mailto:parthkourwar.sae.comp@gmail.com">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+      <span>Email</span>
     </a>
   </div>
 </section>
+
 
 
   <footer>
