@@ -92,6 +92,38 @@ ul li img {
   vertical-align: middle;
   margin-right: 8px;
 }
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-4px);
+}
+
+.skill-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
 
 
 </style>
@@ -105,20 +137,58 @@ ul li img {
   <section>
     <h2>About Me</h2>
     <p>I am a passionate and dedicated engineering student with strong technical skills in Java, MySQL, and Object-Oriented Programming. I have hands-on experience through internships and academic projects, and I am actively enhancing my knowledge in Data Structures, Operating Systems, and core CS fundamentals to pursue a career in software development.</p>
-    <a href="https://drive.google.com/file/d/1JEX2ndhl83WM95U3fkdzguovvs0I8osP/view?usp=drive_link" target="_blank" class="button">Download Resume</a>
+    <a href="https://drive.google.com/file/d/1t9PRlpkDjoef6kEp5OB_0v5u5KMpPVGD/view?usp=sharing"_blank" class="button">Download Resume</a>
 
   </section>
 
-  <section>
-  <h2>Skills</h2>
-  <ul style="list-style: none; padding: 0;">
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="24" alt="Java" style="vertical-align: middle; margin-right: 8px;"> Java</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="24" alt="MySQL" style="vertical-align: middle; margin-right: 8px;"> MySQL</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="24" alt="Git" style="vertical-align: middle; margin-right: 8px;"> Git & GitHub</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="24" alt="VSCode" style="vertical-align: middle; margin-right: 8px;"> VSCode</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="24" alt="C++" style="vertical-align: middle; margin-right: 8px;"> C++</li>
-  </ul>
+ <section>
+  <h2>Programming Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+      <span>Java</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="JDBC">
+      <span>JDBC</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721295.png" alt="Swing">
+      <span>Java Swing</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721295.png" alt="AWT">
+      <span>Java AWT</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+      <span>Python</span>
+    </div>
+  </div>
 </section>
+
+<section>
+  <h2>Tools & Technologies</h2>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+      <span>VS Code</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+      <span>Git</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+      <span>GitHub</span>
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ">
+      <span>IntelliJ IDEA</span>
+    </div>
+  </div>
+</section>
+
 
 
   <section>
